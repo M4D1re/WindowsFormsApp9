@@ -38,7 +38,7 @@ namespace WindowsFormsApp9
                 double digit2 = Convert.ToDouble(txtDisplay.Text);
                 double result = 0;
 
-                if (znak == "+")result = digit1 + digit2;
+                if (znak == "+")result = digit1 + digit2; //true
                 if (znak == "-") result = digit1 - digit2;
                 if (znak == "*") result = digit1 * digit2;
                 if (znak == "/") result = digit1 / digit2;
