@@ -47,6 +47,7 @@ namespace WindowsFormsApp9
             {
                 MessageBox.Show("Ошибка!!!");
                 txtDisplay.Text = "";
+
             }
         }
         private void C_Click(object sender, EventArgs e) 
